@@ -21,7 +21,7 @@ int isEmpty(stack S)
     return hasil; // Mengembalikan hasil, 0 = Stack Ada, 1 = Stack Kosong.
 }
 
-/* Fungsi untuk Proses Menghitung Berapa Banyak Elemen pada Stack */
+/* Fungsi untuk Proses Menghitung Banyak Elemen pada Stack */
 int countElement(stack S)
 {
     int hasil = 0;
