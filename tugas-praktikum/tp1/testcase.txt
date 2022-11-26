@@ -1,0 +1,35 @@
+## TESTCASE 1 ##
+--Masukan--
+AnakKakiGunung CitraSinema 5.0
+WeOwnThisCity HBO 3.5
+Dark Netflix 4.3
+TheHauntingOfHillHouse Netflix 3.9
+TheWheelOfTime Amazon 4.6
+-
+judul
+asc
+
+--Keluaran--
+AnakKakiGunung - CitraSinema
+Dark - Netflix
+TheHauntingOfHillHouse - Netflix
+TheWheelOfTime - Amazon
+WeOwnThisCity - HBO
+
+## TESTCASE 2 ##
+--Masukan--
+AnakKakiGunung CitraSinema 5.0
+WeOwnThisCity HBO 3.5
+Dark Netflix 4.3
+TheHauntingOfHillHouse Netflix 3.9
+TheWheelOfTime Amazon 4.6
+-
+rating
+desc
+
+--Keluaran--
+AnakKakiGunung - CitraSinema
+TheWheelOfTime - Amazon
+Dark - Netflix
+TheHauntingOfHillHouse - Netflix
+WeOwnThisCity - HBO
