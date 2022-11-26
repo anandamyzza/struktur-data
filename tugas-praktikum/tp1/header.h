@@ -1,4 +1,4 @@
-/* Saya Ananda Myzza Marhelio NIM 2100702 mengerjakan evaluasi TP1 dalam mata kuliah Struktur Data
+/* Saya Ananda Myzza Marhelio NIM 2100702 mengerjakan evaluasi  TP1 dalam mata kuliah Struktur Data
 untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. */
 
 #include <stdio.h>
