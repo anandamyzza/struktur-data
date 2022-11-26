@@ -3,6 +3,7 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
 
 #include "header.h"
 
+/* Prosedur untuk Membuat List Dinamis */
 void createList(list *L)
 {
     (*L).first = NULL;
