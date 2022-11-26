@@ -68,7 +68,6 @@ void addFirst(char name[], int date, list *L)
 /* Prosedur untuk Proses Menghapus Elemen Pertama */
 void delFirst(list *L)
 {
-
     /* Jika List Bukan List Kosong*/
     if ((*L).first != NULL)
     {
