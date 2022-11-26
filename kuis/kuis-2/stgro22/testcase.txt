@@ -25,6 +25,7 @@ stack Pos:
 sudiran Pos Cimahi 1
 diana Pos Cimenyan 1
 
+
 ## TESTCASE 2 ##
 --Masukan--
 6
