@@ -39,12 +39,14 @@ typedef struct
 void createList(list *L);
 int countElementB(list L);
 int countElementK(eBaris L);
+
 void addFirstB(char nama[], char tahun[], list *L);
 void addFirstK(char model[], eBaris *L);
 void addAfterB(eBaris *prev, char nama[], char tahun[]);
 void addAfterK(eKolom *prev, char model[]);
 void addLastB(char nama[], char tahun[], list *L);
 void addLastK(char model[], eBaris *L);
+
 void delFirstK(eBaris *L);
 void delAfterK(eKolom *prev);
 void delLastK(eBaris *L);
@@ -53,4 +55,5 @@ void delFirstB(list *L);
 void delAfterB(eBaris *prev);
 void delLastB(list *L);
 void delAllB(list *L);
+
 void printElement(list L);
