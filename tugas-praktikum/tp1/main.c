@@ -13,6 +13,9 @@ int main()
     double q;
     // Penanda inputan sudah selesai/belum.
     int mark = 0;
+    
+    /* Membuat List */
+    createList(&L)
 
     /* Proses Pengulangan untuk Inputan Data dari User */
     do
