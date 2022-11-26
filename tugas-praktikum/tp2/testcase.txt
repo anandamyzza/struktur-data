@@ -1,0 +1,70 @@
+## TESTCASE 1 ##
+Masukan:
+tahu 29
+tempe 8
+telur 2
+buncis 13
+--stop--
+
+Keluaran:
+==== Inventory Dapur ====
+List semua bahan:
+29 tahu
+13 buncis
+08 tempe
+02 telur
+
+List bahan kadaluarsa:
+08 tempe
+02 telur
+
+List bahan sisa:
+13 buncis
+29 tahu
+=========================
+
+## TESTCASE 2 ##
+Masukan:
+Kangkung 11
+Wortel 22
+Selada 30
+Alpukat 9
+--stop--
+
+Keluaran:
+==== Inventory Dapur ====
+List semua bahan:
+30 Selada
+22 Wortel
+11 Kangkung
+09 Alpukat
+
+List bahan kadaluarsa:
+-
+
+List bahan sisa:
+09 Alpukat
+11 Kangkung
+30 Selada
+22 Wortel
+=========================
+
+## TESTCASE 3 ##
+Masukan:
+Susu 8
+Santan 2
+--stop--
+
+Keluaran:
+==== Inventory Dapur ====
+List semua bahan:
+08 Susu
+02 Santan
+
+List bahan kadaluarsa:
+08 Susu
+02 Santan
+
+List bahan sisa:
+-
+=========================
