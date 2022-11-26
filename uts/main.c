@@ -1,4 +1,4 @@
-/* Saya Ananda Myzza Marhelio NIM 2100702 mengerjakan evaluasi TM1 dalam mata kuliah Struktur Data
+/* Saya Ananda Myzza Marhelio NIM 2100702 mengerjakan evaluasi UTS dalam mata kuliah Struktur Data
 untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. */
 
 #include "header.h"
@@ -65,22 +65,6 @@ int main()
     }
 
     printElement(L);
-    // addFirstB("1", "Orang_1", &L);
-    // addFirstK("IF40K1", "A", L.first);
-    // addAfterK(L.first->col, "IF40Z1", "A");
-    // addLastK("IF40Z2", "A", L.first);
-
-    // addAfterB(L.first, "2", "Orang_2");
-    // addFirstK("TI5141", "A", L.first->next);
-    // addLastK("IF5021", "A", L.first->next);
-
-    // addFirstK("IF5321", "A", L.first->next->next);
-    // printElement(L);
-
-    // printf("=================\n");
-    // delAllB(&L);
-    // printElement(L);
-    // printf("=================\n");
 
     return 0;
 }
