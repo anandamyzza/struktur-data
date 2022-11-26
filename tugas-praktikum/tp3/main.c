@@ -50,7 +50,7 @@ int main()
         sum = 0; // Mereset total ASCII ke 0.
     }
 
-    /* Print Data */
+    /* Print Data Rock dan Pop */
     printStack(grock, 0);
     printf("\n");
     printStack(gpop, 1);
