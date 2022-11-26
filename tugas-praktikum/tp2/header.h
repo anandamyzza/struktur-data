@@ -37,7 +37,7 @@ void printReverse(list L);
 void printExpired(list L);
 void printAll(list L);
 
-/* Prosedur untuk Menghapus dan Sorting Data Bahan */
+/* Prosedur untuk Menghapus Data Expired dan Sorting Data Bahan */
 void deleteExpired(list *L);
 void ascSort(list *L);
 void ascSortName(list *L);
