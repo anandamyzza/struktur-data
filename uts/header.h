@@ -1,4 +1,4 @@
-/* Saya Ananda Myzza Marhelio NIM 2100702 mengerjakan evaluasi TM1 dalam mata kuliah Struktur Data
+/* Saya Ananda Myzza Marhelio NIM 2100702 mengerjakan evaluasi UTS dalam mata kuliah Struktur Data
 untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. */
 
 #include <stdio.h>
@@ -62,9 +62,3 @@ eBaris *getBaris(list L, char code[]);
 eKolom *getKolom(eBaris *L, char zat[], int month, int year);
 void switchKol(eBaris *temp, eKolom *tunjuk, list *L);
 void swap(list *L, char zat[], int month, int year);
-// eBaris *getLatestBaris(list L, char nama[]);
-// eKolom *getKolom(eBaris *L, char menu[]);
-// eBaris *getBaris(list *L, char resto[]);
-// eBaris *tunjukBaris(list L, char nama[]);
-// eKolom *getLastKolom(eBaris *L);
-// void SwitchMenu(char resto1[], char menu[], char resto2[], list *L);
