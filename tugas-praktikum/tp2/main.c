@@ -12,7 +12,9 @@ int main()
     int p;
     // Penanda inputan sudah selesai/belum.
     int mark = 0;
-    createList(&L); // Memanggil prosedur pembuatan list dinamis
+    
+     /* Memanggil Prosedur untuk Membuat List Dinamis */
+    createList(&L);
 
     /* Proses Pengulangan untuk Inputan Data dari User */
     do
