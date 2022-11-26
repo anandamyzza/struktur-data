@@ -25,7 +25,7 @@ typedef struct
     elemen *top;
 } stack;
 
-/* Prosedur dan Fungsi yang digunakan di Stack */
+/* Prosedur dan Fungsi yang Digunakan di Stack */
 void createEmpty(stack *S);
 int isEmpty(stack S);
 int countElement(stack S);
