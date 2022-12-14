@@ -11,7 +11,7 @@ int main()
         parent[100]; // Menampung masukan user untuk nama orang tua.
     int count = 0;   // Menampung banyaknya output yang dilakukan oleh user.
 
-    tree T;       // Membuat tree kosong.
+    tree T; // Membuat tree kosong.
     simpul *node; // Membuat simpul sebagai alamat untuk proses CHILD dan DELLCHILD.
 
     /* Proses Pengulangan untuk Meminta Masukan User */
@@ -43,7 +43,7 @@ int main()
         }
         else if (strcmp(query, "PREORDER;") == 0) // Jika query yang diminta adalah "PREORDER".
         {
-            count++;                                  // Maka jumlah count bertambah 1, sebagai tanda output.
+            count++; // Maka jumlah count bertambah 1, sebagai tanda output.
             printTreePreOrder(T.root, T.root, count); // Dan memanggil printTreePreOrder() untuk hasil.
         }
     } while (strcmp(query, "DONE;") != 0); // Pengulangan akan berhenti jika user mengisi query "DONE".
