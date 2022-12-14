@@ -104,7 +104,7 @@ void delChild(char delete[], simpul *root)
     if (root != NULL) // Jika simpul root tidak kosong.
     {
         simpul *hapus = root->child; // Deklarasi simpul hapus yang dikaitkan pada root->child.
-        if (hapus != NULL)           // Jika simpul hapus tidak kosong.
+        if (hapus != NULL) // Jika simpul hapus tidak kosong.
         {
             if (hapus->sibling == NULL) // Dan jika hanya mempunyai satu anak.
             {
