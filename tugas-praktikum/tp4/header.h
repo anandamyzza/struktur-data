@@ -10,7 +10,7 @@ typedef struct smp *alamatsimpul;
 typedef struct smp
 {
     char name[100]; // Menampung nama anggota keluarga.
-    int descendant; // Menampung angka turunan keberapa dalam 1 tree.
+    int descendant; // Menampung angka turunan keberapa dalam tree.
     alamatsimpul sibling;
     alamatsimpul child;
 } simpul;
