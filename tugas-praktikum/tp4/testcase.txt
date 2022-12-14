@@ -1,0 +1,43 @@
+## TESTCASE 1 ##
+--Masukan--
+MAKETREE buyut;
+CHILD nenek buyut;
+CHILD kakek buyut;
+CHILD om nenek;
+CHILD mamah nenek;
+CHILD tante nenek;
+CHILD aku mamah;
+CHILD adik mamah;
+CHILD sepupu tante;
+PREORDER;
+DELLCHILD om nenek;
+CHILD omJauh kakek;
+CHILD tanteJauh kakek;
+PREORDER;
+DONE;
+
+--Keluaran--
+Output 1:
+=========
+buyut
+->nenek
+->->om
+->->mamah
+->->->aku
+->->->adik
+->->tante
+->->->sepupu
+->kakek
+Output 2:
+=========
+buyut
+->nenek
+->->mamah
+->->->aku
+->->->adik
+->->tante
+->->->sepupu
+->kakek
+->->omJauh
+->->tanteJauh
+=========
