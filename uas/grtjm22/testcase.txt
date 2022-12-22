@@ -1,0 +1,23 @@
+## TESTCASE 1 ##
+--Masukan--
+4
+A B 8
+B C 7
+B D 5
+A C 18
+A C
+
+--Keluaran--
+18
+
+## TESTCASE 2 ##
+--Masukan--
+4
+A B 8
+B C 7
+B D 5
+A C 18
+A D
+
+--Keluaran--
+13
