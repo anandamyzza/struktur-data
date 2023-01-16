@@ -21,12 +21,12 @@ This lecture will discuss material such as:<br>
 ## Evaluation
 The lecture process is carried out with theory and practice where assessment is carried out through quizzes, UTS (Mid Semester Examination), UAS (Final Semester Examination), assignments, and practicum.
 
-#### Reference
-Rosa, A. S., 2018. [Struktur Data Terapan Dalam Berbagai Bahasa Pemrograman: Pascal, C, C++, dan Java](http://rosa-as.id/buku/df.php?df=13). Penerbit Modula.
-
 ## Usage Instruction
 To compile and run the code on your local machine, follow the following instruction after cloning a spesific folder that contains header.h, main.c, and mesin.c.
 * make sure you already have the mingw64 latest version to compile C language programming.
 * run Command Prompt on your path directory by using command <br>```cmd```
 * in the Command Prompt terminal, compile the program by using command <br>```gcc *.c -o [name].exe```
 * and run the program in the Command Prompt terminal by using command <br>```[name].exe``` or ```[name]```
+
+#### Reference
+Rosa, A. S., 2018. [Struktur Data Terapan Dalam Berbagai Bahasa Pemrograman: Pascal, C, C++, dan Java](http://rosa-as.id/buku/df.php?df=13). Penerbit Modula.
